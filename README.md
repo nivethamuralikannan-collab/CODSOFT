@@ -1,12 +1,52 @@
-# 🔐 Password Generator (Python)
+# 🐍 Python Programming Internship – Mini Projects
 
-A secure command-line password generator built with Python using the secrets module for cryptographic safety.
+This repository contains three beginner-level Python command-line projects completed as part of a Python Programming Internship.
+Each task focuses on core Python concepts and user interaction.
 
-## ✨ Features
+## 📂 Projects Included
 
-User-defined password length
+## 📝 Task 1: To-Do List Application
 
-Multiple character options:
+A menu-driven CLI application to manage daily tasks.
+
+Features
+
+Add tasks
+
+View tasks
+
+Update tasks
+
+Delete tasks
+
+Limitations
+
+Tasks are stored in memory only (no file storage)
+
+## 🧮 Task 2: Simple Calculator
+
+A command-line calculator supporting basic arithmetic operations.
+Features
+
+Addition
+
+Subtraction
+
+Multiplication
+
+Division
+
+Handles invalid input and division by zero
+
+## 🔐 Task 3: Password Generator
+
+A secure password generator using Python’s secrets module.
+
+Features
+
+Custom password length
+
+Character options:
 
 Letters only
 
@@ -14,35 +54,49 @@ Letters + digits
 
 Letters + digits + symbols
 
-Secure random password generation
+Cryptographically secure password generation
 
-Input validation and error handling
+## ▶️ How to Run
 
-▶️ How to Run
-python password_generator.py
-
-## 🛠 Tech Stack
+Make sure Python 3 is installed, then run the required file:
+```
+python filename.py
+```
+## 🛠 Technologies Used
 
 Python 3
 
-secrets module
+Command Line Interface (CLI)
 
-string module
-
-CLI (Command Line Interface)
-
-## 📌 Description
-
-The program prompts the user to select password length and character types, then generates a strong, random password using Python’s secure random generator.
+Built-in Python modules (secrets, string)
 
 ## 🎯 Purpose
 
-Created as a Python Programming Internship task to practice:
+These projects were developed to practice:
 
-Secure random generation
+Functions and loops
 
-Conditional logic
+Conditional statements
 
 Exception handling
 
-User input validation.
+User input validation
+
+## 📁Project structure
+```
+python-internship-projects/
+│
+├── task1_todo_list/
+│   └── todo_list.py
+│
+├── task2_simple_calculator/
+│   └── calculator.py
+│
+├── task3_password_generator/
+│   └── password_generator.py
+│
+├── README.md
+```
+### 👩‍💻 Author
+
+M. Nivetha
